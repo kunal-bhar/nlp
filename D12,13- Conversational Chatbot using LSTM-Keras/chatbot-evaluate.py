@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Tue Mar 07 09:11:32 2017
 
-@author: Shreyans
-"""
 
 import os
 from scipy import spatial
