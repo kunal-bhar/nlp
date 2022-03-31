@@ -1,10 +1,10 @@
-# 🪐 Stats v ML: NER for Programming Languages
+# 🪐 langWhich: NER for Programming Languages
 
-This project attempts to detect programming languages using datasets from Stackoverflow and Reddit.
+This project attempts to detect programming languages using datasets from StackOverflow and Reddit.
 
 ## 📋 Abstract
 
-The goal of the project is to make a model that could be used generally but it will specifically be used as a sentiment analysis exercise on StackOverflow/Reddit. It is an attempt to investigate how the different communities think about different programming languages.
+The goal of the project is to make a model that could be used generally but it will specifically be used as a Named Entity Recognition exercise on StackOverflow/Reddit. It is an attempt to investigate how the different communities think about different programming languages.
 
 Typically, two models are evaluated using this project; a pattern matching model and a spaCy NER model to pursue a comparison between rule-based Statistics and Machine Learning approaches for NLP.
 
@@ -14,11 +14,10 @@ To export and run this workflow on your local machine, use the [`spacy project r
 <!-- SPACY PROJECT: AUTO-GENERATED DOCS START (do not remove) -->
 
 
-## 📋 project.yml
+## 🗂 project.yml
 
 The [`project.yml`](project.yml) defines the data assets required by the
-project, as well as the available commands and workflows. For details, see the
-[spaCy projects documentation](https://spacy.io/usage/projects).
+project, as well as the available commands and workflows. 
 
 ### ⏯ Commands
 
@@ -46,7 +45,7 @@ inputs have changed.
 | --- | --- |
 | `all` | `preprocess` &rarr; `patternmod` &rarr; `train` &rarr; `evaluate` |
 
-### 🗂 Assets
+## 🗂 Assets
 
 The following assets are defined by the project. They can
 be fetched by running [`spacy project assets`](https://spacy.io/api/cli#project-assets)
@@ -57,7 +56,7 @@ in the project directory.
 | [`assets/stackoverflow-train.jsonl`](assets/stackoverflow-train.jsonl) | Local | JSONL-formatted training data |
 | [`assets/stackoverflow-valid.jsonl`](assets/stackoverflow-valid.jsonl) | Local | JSONL-formatted validation data |
 
-### 🗂 Config Files
+## 🗂 Config Files
 
 The following configuration files are defined by the project. 
 | File | Source | Description |
@@ -65,7 +64,7 @@ The following configuration files are defined by the project.
 | [`configs/config.cfg`](configs/config.cfg) | Local | CFG-formatted for base config |
 | [`configs/proglang_patterns.jsonl`](configs/proglang_patterns.jsonl) | Local | JSONL-formatted rule patterns |
 
-### 🗂 Scripts
+## 🗂 Scripts
 
 The following Python scripts are defined by the project.
 
@@ -99,5 +98,16 @@ Metrics: `project show-stats`
 ![Initialization](imgs/cli-show-stats.PNG)
 
 
+## 📋 References
+
+[`spaCy and spaCy Projects: Documentation`](https://spacy.io/usage/projects)
+
+[`Explosion Templates: GitHub Repository`](https://github.com/explosion/projects)
+
+[`Vincent Warmerdam: GitHub`](https://github.com/koaning)
+
+
+
 <!-- SPACY PROJECT: AUTO-GENERATED DOCS END (do not remove) -->
+
  Some of this documentation has been auto-generated using the [`spacy project document`](https://spacy.io/api/cli#project-document) command!
