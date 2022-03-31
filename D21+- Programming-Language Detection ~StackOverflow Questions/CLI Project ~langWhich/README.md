@@ -1,10 +1,10 @@
 # 🪐 langWhich: NER for Programming Languages
 
-This project attempts to detect programming languages using datasets from StackOverflow and Reddit.
+This project seeks to detect programming languages using datasets from Stack Overflow and Reddit.
 
 ## 📋 Abstract
 
-The goal of the project is to make a model that could be used generally but it will specifically be used as a Named Entity Recognition exercise on StackOverflow/Reddit. It is an attempt to investigate how the different communities think about different programming languages.
+The goal of the project is to make a model that could be used generally but it will specifically be used as a Named Entity Recognition exercise on Stack Overflow/Reddit with verticals for Sentiment Analysis. It is an attempt to investigate how the different communities think about different programming languages.
 
 Typically, two models are evaluated using this project; a pattern matching model and a spaCy NER model to pursue a comparison between rule-based Statistics and Machine Learning approaches for NLP.
 
